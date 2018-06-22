@@ -28,5 +28,6 @@ def now_serving(katz_deli)
     #tells a person his/her position in line and then removes them from the front of the line index[0] and everyone else shifts forward 1 position
   else
     puts "Currently serving #{katz_deli.shift}."
+    #could try to use delete or drop here if I created a while/until loop for linelength == 0 ?
 end
 end
